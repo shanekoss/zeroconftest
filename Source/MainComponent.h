@@ -22,9 +22,8 @@ public:
 private:
     //==============================================================================
     // Your private member variables go here...
-    jucey::BonjourService serviceToRegister {"_koss._udp", "My Service", "local"};
+    jucey::BonjourService serviceToRegister {"_test._udp", "My Service", "local"};
     std::unique_ptr<jucey::BonjourService> serviceToDiscover;
-    jucey::BonjourService enumerateDomains;
     juce::TextButton restBrowsing{ "RESET" };
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainComponent)
 };

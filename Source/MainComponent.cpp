@@ -3,43 +3,9 @@
 //==============================================================================
 MainComponent::MainComponent()
 {
-//    const auto enumerateCallback = [](const jucey::BonjourService& service,
-//                                        bool isAvailable,
-//                                        bool isMoreComing,
-//                                        const juce::Result& result)
-//    {
-//        if (result.wasOk())
-//        {
-//            std::cout << (isAvailable ? "Added service:" : "Removed service:") << std::endl;
-//            std::cout << service.getType() << std::endl;
-//            std::cout << service.getName() << std::endl;
-//            std::cout << service.getDomain() << std::endl;
-//        }
-//    };
-//    
-//    enumerateDomains.enumerateDomains(enumerateCallback);
-//    
-//
-//    juce::DatagramSocket udpSocket;
-//    udpSocket.bindToPort(0);
-//    const auto onServiceRegistered = [](const jucey::BonjourService& service,
-//                                        const juce::Result& result)
-//    {
-//        if (result.wasOk())
-//        {
-//            std::cout << "Registered service:" << std::endl;
-//            std::cout << service.getType() << std::endl;
-//            std::cout << service.getName() << std::endl;
-//            std::cout << service.getDomain() << std::endl;
-//        }
-//    };
-//
-//    serviceToRegister.registerAsync (onServiceRegistered, udpSocket);
-    
     addAndMakeVisible(restBrowsing);
     restBrowsing.onClick = [this]()
     {
-        serviceToDiscover->stopService();
         serviceToDiscover.reset();
         juce::Timer::callAfterDelay(1000, [this]()
         {
@@ -47,6 +13,12 @@ MainComponent::MainComponent()
         });
     };
     setSize (600, 400);
+    const auto registerCallback = [this](const jucey::BonjourService& service, const juce::Result& result)
+    {
+        std::cout << "service registered!" << std::endl;
+    };
+    
+    serviceToRegister.registerAsync(registerCallback, 7061);
     startBrowsing();
 }
 
@@ -71,7 +43,7 @@ void MainComponent::resized()
 
 void MainComponent::startBrowsing()
 {
-    serviceToDiscover = std::make_unique<jucey::BonjourService>("_vepro._tcp.");
+    serviceToDiscover = std::make_unique<jucey::BonjourService>("_test._udp");
     
     const auto onServiceDiscovered = [](const jucey::BonjourService& service,
                                         bool isAvailable,
@@ -80,7 +52,7 @@ void MainComponent::startBrowsing()
     {
         if (result.wasOk())
         {
-            std::cout << (isAvailable ? "Added service:" : "Removed service:") << std::endl;
+            std::cout << (isAvailable ? "Found service:" : "lost service:") << std::endl;
             std::cout << service.getType() << std::endl;
             std::cout << service.getName() << std::endl;
             std::cout << service.getDomain() << std::endl;
