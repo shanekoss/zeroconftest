@@ -1,0 +1,7 @@
+Executable : C:\Users\shane\android-sdks\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+C:\Users\shane\Documents\zeroconftest\Builds\Android\app\.cxx\cmake\debug_Debug\x86
+juce_jni
+jvmArgs : 
+

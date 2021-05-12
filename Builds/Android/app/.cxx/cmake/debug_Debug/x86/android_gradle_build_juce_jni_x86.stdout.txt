@@ -1,0 +1,85 @@
+ninja: Entering directory `C:\Users\shane\Documents\zeroconftest\Builds\Android\app\.cxx\cmake\debug_Debug\x86'
+[1/11] Building C object CMakeFiles/cpufeatures.dir/C_/Users/shane/android-sdks/ndk/22.1.7171670/sources/android/cpufeatures/cpu-features.c.o
+[2/11] Linking C static library libcpufeatures.a
+[3/11] Building CXX object CMakeFiles/juce_jni.dir/C_/Users/shane/Documents/zeroconftest/JuceLibraryCode/include_jucey_bonjour.cpp.o
+[4/11] Building CXX object CMakeFiles/juce_jni.dir/C_/Users/shane/Documents/zeroconftest/JuceLibraryCode/include_juce_data_structures.cpp.o
+[5/11] Building CXX object CMakeFiles/juce_jni.dir/C_/Users/shane/Documents/zeroconftest/Source/Main.cpp.o
+[6/11] Building CXX object CMakeFiles/juce_jni.dir/C_/Users/shane/Documents/zeroconftest/Source/MainComponent.cpp.o
+[7/11] Building CXX object CMakeFiles/juce_jni.dir/C_/Users/shane/Documents/zeroconftest/JuceLibraryCode/include_juce_events.cpp.o
+[8/11] Building CXX object CMakeFiles/juce_jni.dir/C_/Users/shane/Documents/zeroconftest/JuceLibraryCode/include_juce_graphics.cpp.o
+[9/11] Building CXX object CMakeFiles/juce_jni.dir/C_/Users/shane/Documents/zeroconftest/JuceLibraryCode/include_juce_core.cpp.o
+[10/11] Building CXX object CMakeFiles/juce_jni.dir/C_/Users/shane/Documents/zeroconftest/JuceLibraryCode/include_juce_gui_basics.cpp.o
+[11/11] Linking CXX shared library ..\..\..\..\build\intermediates\cmake\debug_Debug\obj\x86\libjuce_jni.so
+FAILED: ../../../../build/intermediates/cmake/debug_Debug/obj/x86/libjuce_jni.so 
+cmd.exe /C "cd . && C:\Users\shane\android-sdks\ndk\22.1.7171670\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=i686-none-linux-android16 --gcc-toolchain=C:/Users/shane/android-sdks/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/shane/android-sdks/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64/sysroot -fPIC -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti  -O0 -fno-limit-debug-info -O0  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -shared -Wl,-soname,libjuce_jni.so -o ..\..\..\..\build\intermediates\cmake\debug_Debug\obj\x86\libjuce_jni.so CMakeFiles/juce_jni.dir/C_/Users/shane/Documents/zeroconftest/Source/Main.cpp.o CMakeFiles/juce_jni.dir/C_/Users/shane/Documents/zeroconftest/Source/MainComponent.cpp.o CMakeFiles/juce_jni.dir/C_/Users/shane/Documents/zeroconftest/JuceLibraryCode/include_juce_core.cpp.o CMakeFiles/juce_jni.dir/C_/Users/shane/Documents/zeroconftest/JuceLibraryCode/include_juce_data_structures.cpp.o CMakeFiles/juce_jni.dir/C_/Users/shane/Documents/zeroconftest/JuceLibraryCode/include_juce_events.cpp.o CMakeFiles/juce_jni.dir/C_/Users/shane/Documents/zeroconftest/JuceLibraryCode/include_juce_graphics.cpp.o CMakeFiles/juce_jni.dir/C_/Users/shane/Documents/zeroconftest/JuceLibraryCode/include_juce_gui_basics.cpp.o CMakeFiles/juce_jni.dir/C_/Users/shane/Documents/zeroconftest/JuceLibraryCode/include_jucey_bonjour.cpp.o  -llog -landroid -lGLESv2 -lEGL libcpufeatures.a -latomic -lm && cd ."
+ld: error: undefined symbol: TXTRecordGetValuePtr
+>>> referenced by jucey_BonjourService.cpp:105 (../../../../../../../jucey_bonjour\jucey_bonjour/bonjour\jucey_BonjourService.cpp:105)
+>>>               CMakeFiles/juce_jni.dir/C_/Users/shane/Documents/zeroconftest/JuceLibraryCode/include_jucey_bonjour.cpp.o:(BonjourTxtRecord::getValue(juce::String const&) const)
+
+ld: error: undefined symbol: TXTRecordSetValue
+>>> referenced by jucey_BonjourService.cpp:132 (../../../../../../../jucey_bonjour\jucey_bonjour/bonjour\jucey_BonjourService.cpp:132)
+>>>               CMakeFiles/juce_jni.dir/C_/Users/shane/Documents/zeroconftest/JuceLibraryCode/include_jucey_bonjour.cpp.o:(BonjourTxtRecord::setValue(juce::String const&, juce::String const&))
+
+ld: error: undefined symbol: TXTRecordRemoveValue
+>>> referenced by jucey_BonjourService.cpp:137 (../../../../../../../jucey_bonjour\jucey_bonjour/bonjour\jucey_BonjourService.cpp:137)
+>>>               CMakeFiles/juce_jni.dir/C_/Users/shane/Documents/zeroconftest/JuceLibraryCode/include_jucey_bonjour.cpp.o:(BonjourTxtRecord::removeValue(juce::String const&))
+
+ld: error: undefined symbol: TXTRecordContainsKey
+>>> referenced by jucey_BonjourService.cpp:116 (../../../../../../../jucey_bonjour\jucey_bonjour/bonjour\jucey_BonjourService.cpp:116)
+>>>               CMakeFiles/juce_jni.dir/C_/Users/shane/Documents/zeroconftest/JuceLibraryCode/include_jucey_bonjour.cpp.o:(BonjourTxtRecord::containsKey(juce::String const&) const)
+
+ld: error: undefined symbol: DNSServiceBrowse
+>>> referenced by jucey_BonjourService.cpp:424 (../../../../../../../jucey_bonjour\jucey_bonjour/bonjour\jucey_BonjourService.cpp:424)
+>>>               CMakeFiles/juce_jni.dir/C_/Users/shane/Documents/zeroconftest/JuceLibraryCode/include_jucey_bonjour.cpp.o:(jucey::BonjourService::discoverAsync(std::__ndk1::function<void (jucey::BonjourService const&, bool, bool, juce::Result const&)>, int))
+
+ld: error: undefined symbol: DNSServiceResolve
+>>> referenced by jucey_BonjourService.cpp:443 (../../../../../../../jucey_bonjour\jucey_bonjour/bonjour\jucey_BonjourService.cpp:443)
+>>>               CMakeFiles/juce_jni.dir/C_/Users/shane/Documents/zeroconftest/JuceLibraryCode/include_jucey_bonjour.cpp.o:(jucey::BonjourService::resolveAsync(std::__ndk1::function<void (jucey::BonjourService const&, juce::String const&, int, juce::Result const&)>))
+
+ld: error: undefined symbol: DNSServiceRegister
+>>> referenced by jucey_BonjourService.cpp:468 (../../../../../../../jucey_bonjour\jucey_bonjour/bonjour\jucey_BonjourService.cpp:468)
+>>>               CMakeFiles/juce_jni.dir/C_/Users/shane/Documents/zeroconftest/JuceLibraryCode/include_jucey_bonjour.cpp.o:(jucey::BonjourService::registerAsync(std::__ndk1::function<void (jucey::BonjourService const&, juce::Result const&)>, int))
+
+ld: error: undefined symbol: TXTRecordGetLength
+>>> referenced by jucey_BonjourService.cpp:94 (../../../../../../../jucey_bonjour\jucey_bonjour/bonjour\jucey_BonjourService.cpp:94)
+>>>               CMakeFiles/juce_jni.dir/C_/Users/shane/Documents/zeroconftest/JuceLibraryCode/include_jucey_bonjour.cpp.o:(BonjourTxtRecord::getLength() const)
+
+ld: error: undefined symbol: TXTRecordGetBytesPtr
+>>> referenced by jucey_BonjourService.cpp:99 (../../../../../../../jucey_bonjour\jucey_bonjour/bonjour\jucey_BonjourService.cpp:99)
+>>>               CMakeFiles/juce_jni.dir/C_/Users/shane/Documents/zeroconftest/JuceLibraryCode/include_jucey_bonjour.cpp.o:(BonjourTxtRecord::getBytes() const)
+
+ld: error: undefined symbol: TXTRecordGetItemAtIndex
+>>> referenced by jucey_BonjourService.cpp:148 (../../../../../../../jucey_bonjour\jucey_bonjour/bonjour\jucey_BonjourService.cpp:148)
+>>>               CMakeFiles/juce_jni.dir/C_/Users/shane/Documents/zeroconftest/JuceLibraryCode/include_jucey_bonjour.cpp.o:(BonjourTxtRecord::getItemAtIndex(unsigned short, void const*, unsigned short))
+
+ld: error: undefined symbol: TXTRecordGetCount
+>>> referenced by jucey_BonjourService.cpp:161 (../../../../../../../jucey_bonjour\jucey_bonjour/bonjour\jucey_BonjourService.cpp:161)
+>>>               CMakeFiles/juce_jni.dir/C_/Users/shane/Documents/zeroconftest/JuceLibraryCode/include_jucey_bonjour.cpp.o:(BonjourTxtRecord::getCount(unsigned short, void const*))
+
+ld: error: undefined symbol: DNSServiceRefDeallocate
+>>> referenced by jucey_BonjourService.cpp:7 (../../../../../../../jucey_bonjour\jucey_bonjour/bonjour\jucey_BonjourService.cpp:7)
+>>>               CMakeFiles/juce_jni.dir/C_/Users/shane/Documents/zeroconftest/JuceLibraryCode/include_jucey_bonjour.cpp.o:(BonjourDnsService::BonjourDnsService(_DNSServiceRef_t*))
+
+ld: error: undefined symbol: DNSServiceRefSockFD
+>>> referenced by jucey_BonjourService.cpp:29 (../../../../../../../jucey_bonjour\jucey_bonjour/bonjour\jucey_BonjourService.cpp:29)
+>>>               CMakeFiles/juce_jni.dir/C_/Users/shane/Documents/zeroconftest/JuceLibraryCode/include_jucey_bonjour.cpp.o:(BonjourDnsService::run())
+
+ld: error: undefined symbol: DNSServiceProcessResult
+>>> referenced by jucey_BonjourService.cpp:40 (../../../../../../../jucey_bonjour\jucey_bonjour/bonjour\jucey_BonjourService.cpp:40)
+>>>               CMakeFiles/juce_jni.dir/C_/Users/shane/Documents/zeroconftest/JuceLibraryCode/include_jucey_bonjour.cpp.o:(BonjourDnsService::run())
+
+ld: error: undefined symbol: TXTRecordDeallocate
+>>> referenced by jucey_BonjourService.cpp:76 (../../../../../../../jucey_bonjour\jucey_bonjour/bonjour\jucey_BonjourService.cpp:76)
+>>>               CMakeFiles/juce_jni.dir/C_/Users/shane/Documents/zeroconftest/JuceLibraryCode/include_jucey_bonjour.cpp.o:(BonjourTxtRecord::clear())
+>>> referenced by jucey_BonjourService.cpp:71 (../../../../../../../jucey_bonjour\jucey_bonjour/bonjour\jucey_BonjourService.cpp:71)
+>>>               CMakeFiles/juce_jni.dir/C_/Users/shane/Documents/zeroconftest/JuceLibraryCode/include_jucey_bonjour.cpp.o:(BonjourTxtRecord::~BonjourTxtRecord())
+
+ld: error: undefined symbol: TXTRecordCreate
+>>> referenced by jucey_BonjourService.cpp:77 (../../../../../../../jucey_bonjour\jucey_bonjour/bonjour\jucey_BonjourService.cpp:77)
+>>>               CMakeFiles/juce_jni.dir/C_/Users/shane/Documents/zeroconftest/JuceLibraryCode/include_jucey_bonjour.cpp.o:(BonjourTxtRecord::clear())
+>>> referenced by jucey_BonjourService.cpp:55 (../../../../../../../jucey_bonjour\jucey_bonjour/bonjour\jucey_BonjourService.cpp:55)
+>>>               CMakeFiles/juce_jni.dir/C_/Users/shane/Documents/zeroconftest/JuceLibraryCode/include_jucey_bonjour.cpp.o:(BonjourTxtRecord::BonjourTxtRecord())
+>>> referenced by jucey_BonjourService.cpp:60 (../../../../../../../jucey_bonjour\jucey_bonjour/bonjour\jucey_BonjourService.cpp:60)
+>>>               CMakeFiles/juce_jni.dir/C_/Users/shane/Documents/zeroconftest/JuceLibraryCode/include_jucey_bonjour.cpp.o:(BonjourTxtRecord::BonjourTxtRecord(BonjourTxtRecord const&))
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.

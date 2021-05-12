@@ -1,0 +1,28 @@
+{
+  "buildFiles": [
+    "C:\\Users\\shane\\android-sdks\\ndk\\22.1.7171670\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\shane\\android-sdks\\ndk\\22.1.7171670\\build\\cmake\\platforms.cmake",
+    "C:\\Users\\shane\\Documents\\zeroconftest\\Builds\\Android\\app\\CMakeLists.txt",
+    "C:\\Users\\shane\\android-sdks\\ndk\\22.1.7171670\\build\\cmake\\compiler_id.cmake"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\shane\\android-sdks\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\shane\\Documents\\zeroconftest\\Builds\\Android\\app\\.cxx\\cmake\\debug_Debug\\arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\shane\\android-sdks\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\Users\\shane\\Documents\\zeroconftest\\Builds\\Android\\app\\.cxx\\cmake\\debug_Debug\\arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "juce_jni-Debug-arm64-v8a": {
+      "artifactName": "juce_jni",
+      "buildCommand": "C:\\Users\\shane\\android-sdks\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\shane\\Documents\\zeroconftest\\Builds\\Android\\app\\.cxx\\cmake\\debug_Debug\\arm64-v8a\" juce_jni",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\shane\\Documents\\zeroconftest\\Builds\\Android\\app\\build\\intermediates\\cmake\\debug_Debug\\obj\\arm64-v8a\\libjuce_jni.so",
+      "runtimeFiles": []
+    },
+    "cpufeatures-Debug-arm64-v8a": {
+      "artifactName": "cpufeatures",
+      "buildCommand": "C:\\Users\\shane\\android-sdks\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\shane\\Documents\\zeroconftest\\Builds\\Android\\app\\.cxx\\cmake\\debug_Debug\\arm64-v8a\" cpufeatures",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\shane\\Documents\\zeroconftest\\Builds\\Android\\app\\.cxx\\cmake\\debug_Debug\\arm64-v8a\\libcpufeatures.a",
+      "runtimeFiles": []
+    }
+  }
+}

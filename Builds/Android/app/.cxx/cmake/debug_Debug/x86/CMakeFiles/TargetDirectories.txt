@@ -1,0 +1,4 @@
+C:/Users/shane/Documents/zeroconftest/Builds/Android/app/.cxx/cmake/debug_Debug/x86/CMakeFiles/cpufeatures.dir
+C:/Users/shane/Documents/zeroconftest/Builds/Android/app/.cxx/cmake/debug_Debug/x86/CMakeFiles/juce_jni.dir
+C:/Users/shane/Documents/zeroconftest/Builds/Android/app/.cxx/cmake/debug_Debug/x86/CMakeFiles/edit_cache.dir
+C:/Users/shane/Documents/zeroconftest/Builds/Android/app/.cxx/cmake/debug_Debug/x86/CMakeFiles/rebuild_cache.dir

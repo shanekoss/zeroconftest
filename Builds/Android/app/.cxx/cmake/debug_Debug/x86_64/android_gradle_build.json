@@ -1,0 +1,3596 @@
+{
+  "stringTable": {
+    "0": "C:/Users/shane/Documents/zeroconftest/Builds/Android/app/.cxx/cmake/debug_Debug/x86_64",
+    "1": "--target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/shane/android-sdks/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/shane/android-sdks/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DDEBUG=1 -DJUCER_ANDROIDSTUDIO_7F0E4A25=1 -DJUCE_ANDROID=1 -DJUCE_ANDROID_API_VERSION=16 -DJUCE_APP_VERSION=1.0.0 -DJUCE_APP_VERSION_HEX=0x10000 -DJUCE_DISPLAY_SPLASH_SCREEN=0 -DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1 -DJUCE_MODULE_AVAILABLE_juce_core=1 -DJUCE_MODULE_AVAILABLE_juce_data_structures=1 -DJUCE_MODULE_AVAILABLE_juce_events=1 -DJUCE_MODULE_AVAILABLE_juce_graphics=1 -DJUCE_MODULE_AVAILABLE_juce_gui_basics=1 -DJUCE_MODULE_AVAILABLE_jucey_bonjour=1 -DJUCE_PROJUCER_VERSION=0x60008 -DJUCE_STANDALONE_APPLICATION=1 -DJUCE_STRICT_REFCOUNTEDPOINTER=1 -DJUCE_USE_DARK_SPLASH_SCREEN=1 -D_DEBUG=1 -I../../../../../../../JuceLibraryCode -I../../../../../../../jucey_bonjour -I../../../../../../../JUCE/modules -IC:/Users/shane/android-sdks/ndk/22.1.7171670/sources/android/cpufeatures -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -O0 -fPIC -Wno-sign-conversion -Wno-gnu-statement-expression",
+    "2": "--target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/shane/android-sdks/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/shane/android-sdks/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DDEBUG=1 -DJUCER_ANDROIDSTUDIO_7F0E4A25=1 -DJUCE_ANDROID=1 -DJUCE_ANDROID_API_VERSION=16 -DJUCE_APP_VERSION=1.0.0 -DJUCE_APP_VERSION_HEX=0x10000 -DJUCE_DISPLAY_SPLASH_SCREEN=0 -DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1 -DJUCE_MODULE_AVAILABLE_juce_core=1 -DJUCE_MODULE_AVAILABLE_juce_data_structures=1 -DJUCE_MODULE_AVAILABLE_juce_events=1 -DJUCE_MODULE_AVAILABLE_juce_graphics=1 -DJUCE_MODULE_AVAILABLE_juce_gui_basics=1 -DJUCE_MODULE_AVAILABLE_jucey_bonjour=1 -DJUCE_PROJUCER_VERSION=0x60008 -DJUCE_STANDALONE_APPLICATION=1 -DJUCE_STRICT_REFCOUNTEDPOINTER=1 -DJUCE_USE_DARK_SPLASH_SCREEN=1 -D_DEBUG=1 -Djuce_jni_EXPORTS -I../../../../../../../JuceLibraryCode -I../../../../../../../jucey_bonjour -I../../../../../../../JUCE/modules -IC:/Users/shane/android-sdks/ndk/22.1.7171670/sources/android/cpufeatures -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -O0 -fno-limit-debug-info -O0 -fPIC -fsigned-char -std=c++14",
+    "3": "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fPIC   -fsigned-char -DDEBUG=1 -DJUCER_ANDROIDSTUDIO_7F0E4A25=1 -DJUCE_ANDROID=1 -DJUCE_ANDROID_API_VERSION=16 -DJUCE_APP_VERSION=1.0.0 -DJUCE_APP_VERSION_HEX=0x10000 -DJUCE_DISPLAY_SPLASH_SCREEN=0 -DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1 -DJUCE_MODULE_AVAILABLE_juce_core=1 -DJUCE_MODULE_AVAILABLE_juce_data_structures=1 -DJUCE_MODULE_AVAILABLE_juce_events=1 -DJUCE_MODULE_AVAILABLE_juce_graphics=1 -DJUCE_MODULE_AVAILABLE_juce_gui_basics=1 -DJUCE_MODULE_AVAILABLE_jucey_bonjour=1 -DJUCE_PROJUCER_VERSION=0x60008 -DJUCE_STANDALONE_APPLICATION=1 -DJUCE_STRICT_REFCOUNTEDPOINTER=1 -DJUCE_USE_DARK_SPLASH_SCREEN=1 -D_DEBUG=1 -Djuce_jni_EXPORTS -I C:/Users/shane/Documents/zeroconftest/Builds/Android/app/../../../JuceLibraryCode -I C:/Users/shane/Documents/zeroconftest/Builds/Android/app/../../../jucey_bonjour -I C:/Users/shane/Documents/zeroconftest/Builds/Android/app/../../../JUCE/modules -I C:/Users/shane/android-sdks/ndk/22.1.7171670/sources/android/cpufeatures",
+    "4": "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti  -O0 -fno-limit-debug-info -O0 -fPIC   -fsigned-char -std=c++14 -DDEBUG=1 -DJUCER_ANDROIDSTUDIO_7F0E4A25=1 -DJUCE_ANDROID=1 -DJUCE_ANDROID_API_VERSION=16 -DJUCE_APP_VERSION=1.0.0 -DJUCE_APP_VERSION_HEX=0x10000 -DJUCE_DISPLAY_SPLASH_SCREEN=0 -DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1 -DJUCE_MODULE_AVAILABLE_juce_core=1 -DJUCE_MODULE_AVAILABLE_juce_data_structures=1 -DJUCE_MODULE_AVAILABLE_juce_events=1 -DJUCE_MODULE_AVAILABLE_juce_graphics=1 -DJUCE_MODULE_AVAILABLE_juce_gui_basics=1 -DJUCE_MODULE_AVAILABLE_jucey_bonjour=1 -DJUCE_PROJUCER_VERSION=0x60008 -DJUCE_STANDALONE_APPLICATION=1 -DJUCE_STRICT_REFCOUNTEDPOINTER=1 -DJUCE_USE_DARK_SPLASH_SCREEN=1 -D_DEBUG=1 -Djuce_jni_EXPORTS -I C:/Users/shane/Documents/zeroconftest/Builds/Android/app/../../../JuceLibraryCode -I C:/Users/shane/Documents/zeroconftest/Builds/Android/app/../../../jucey_bonjour -I C:/Users/shane/Documents/zeroconftest/Builds/Android/app/../../../JUCE/modules -I C:/Users/shane/android-sdks/ndk/22.1.7171670/sources/android/cpufeatures",
+    "5": "null"
+  },
+  "buildFiles": [
+    "C:\\Users\\shane\\android-sdks\\ndk\\22.1.7171670\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\shane\\android-sdks\\ndk\\22.1.7171670\\build\\cmake\\platforms.cmake",
+    "C:\\Users\\shane\\Documents\\zeroconftest\\Builds\\Android\\app\\CMakeLists.txt",
+    "C:\\Users\\shane\\android-sdks\\ndk\\22.1.7171670\\build\\cmake\\compiler_id.cmake"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\shane\\android-sdks\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\shane\\Documents\\zeroconftest\\Builds\\Android\\app\\.cxx\\cmake\\debug_Debug\\x86_64\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\shane\\android-sdks\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\Users\\shane\\Documents\\zeroconftest\\Builds\\Android\\app\\.cxx\\cmake\\debug_Debug\\x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "juce_jni-Debug-x86_64": {
+      "buildCommand": "C:\\Users\\shane\\android-sdks\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\shane\\Documents\\zeroconftest\\Builds\\Android\\app\\.cxx\\cmake\\debug_Debug\\x86_64\" juce_jni",
+      "buildType": "debug",
+      "toolchain": "2309962848",
+      "abi": "x86_64",
+      "artifactName": "juce_jni",
+      "files": [
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\zip\\zlib\\adler32.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\zip\\zlib\\compress.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\zip\\zlib\\crc32.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\zip\\zlib\\deflate.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\zip\\zlib\\infback.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\zip\\zlib\\inffast.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\zip\\zlib\\inflate.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\zip\\zlib\\inftrees.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\zip\\zlib\\trees.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\zip\\zlib\\uncompr.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\zip\\zlib\\zutil.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jcapimin.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jcapistd.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jccoefct.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jccolor.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jcdctmgr.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jchuff.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jcinit.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jcmainct.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jcmarker.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jcmaster.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jcomapi.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jcparam.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jcphuff.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jcprepct.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jcsample.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jctrans.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jdapimin.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jdapistd.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jdatasrc.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jdcoefct.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jdcolor.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jddctmgr.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jdhuff.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jdinput.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jdmainct.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jdmarker.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jdmaster.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jdmerge.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jdphuff.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jdpostct.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jdsample.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jdtrans.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jerror.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jfdctflt.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jfdctfst.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jfdctint.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jidctflt.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jidctfst.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jidctint.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jidctred.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jmemmgr.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jmemnobs.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jquant1.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jquant2.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jutils.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\transupp.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\pnglib\\png.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\pnglib\\pngerror.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\pnglib\\pngget.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\pnglib\\pngmem.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\pnglib\\pngpread.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\pnglib\\pngread.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\pnglib\\pngrio.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\pnglib\\pngrtran.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\pnglib\\pngrutil.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\pnglib\\pngset.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\pnglib\\pngtrans.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\pnglib\\pngwio.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\pnglib\\pngwrite.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\pnglib\\pngwtran.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\pnglib\\pngwutil.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\Source\\Main.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\Source\\MainComponent.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\jucey_bonjour\\jucey_bonjour\\bonjour\\jucey_BonjourService.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\jucey_bonjour\\jucey_bonjour\\bonjour\\jucey_BonjourServiceTests.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\jucey_bonjour\\jucey_bonjour\\jucey_bonjour.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\containers\\juce_AbstractFifo.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\containers\\juce_ArrayBase.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\containers\\juce_DynamicObject.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\containers\\juce_HashMap_test.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\containers\\juce_NamedValueSet.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\containers\\juce_OwnedArray.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\containers\\juce_PropertySet.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\containers\\juce_ReferenceCountedArray.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\containers\\juce_SparseSet.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\containers\\juce_Variant.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\files\\juce_DirectoryIterator.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\files\\juce_File.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\files\\juce_FileFilter.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\files\\juce_FileInputStream.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\files\\juce_FileOutputStream.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\files\\juce_FileSearchPath.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\files\\juce_RangedDirectoryIterator.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\files\\juce_TemporaryFile.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\files\\juce_WildcardFileFilter.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\javascript\\juce_Javascript.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\javascript\\juce_JSON.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\logging\\juce_FileLogger.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\logging\\juce_Logger.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\maths\\juce_BigInteger.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\maths\\juce_Expression.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\maths\\juce_Random.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\memory\\juce_AllocationHooks.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\memory\\juce_MemoryBlock.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\misc\\juce_ConsoleApplication.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\misc\\juce_Result.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\misc\\juce_RuntimePermissions.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\misc\\juce_Uuid.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\native\\juce_android_Files.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\native\\juce_android_JNIHelpers.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\native\\juce_android_Misc.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\native\\juce_android_Network.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\native\\juce_android_RuntimePermissions.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\native\\juce_android_SystemStats.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\native\\juce_android_Threads.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\native\\juce_curl_Network.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\native\\juce_linux_CommonFile.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\native\\juce_linux_Files.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\native\\juce_linux_Network.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\native\\juce_linux_SystemStats.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\native\\juce_linux_Threads.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\native\\juce_mac_Files.mm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\native\\juce_mac_Network.mm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\native\\juce_mac_Strings.mm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\native\\juce_mac_SystemStats.mm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\native\\juce_mac_Threads.mm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\native\\juce_posix_NamedPipe.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\native\\juce_wasm_SystemStats.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\native\\juce_win32_Files.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\native\\juce_win32_Network.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\native\\juce_win32_Registry.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\native\\juce_win32_SystemStats.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\native\\juce_win32_Threads.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\network\\juce_IPAddress.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\network\\juce_MACAddress.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\network\\juce_NamedPipe.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\network\\juce_Socket.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\network\\juce_URL.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\network\\juce_WebInputStream.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\streams\\juce_BufferedInputStream.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\streams\\juce_FileInputSource.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\streams\\juce_InputStream.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\streams\\juce_MemoryInputStream.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\streams\\juce_MemoryOutputStream.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\streams\\juce_OutputStream.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\streams\\juce_SubregionStream.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\streams\\juce_URLInputSource.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\system\\juce_SystemStats.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\text\\juce_Base64.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\text\\juce_CharacterFunctions.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\text\\juce_Identifier.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\text\\juce_LocalisedStrings.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\text\\juce_String.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\text\\juce_StringArray.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\text\\juce_StringPairArray.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\text\\juce_StringPool.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\text\\juce_TextDiff.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\threads\\juce_ChildProcess.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\threads\\juce_HighResolutionTimer.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\threads\\juce_ReadWriteLock.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\threads\\juce_Thread.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\threads\\juce_ThreadPool.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\threads\\juce_TimeSliceThread.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\threads\\juce_WaitableEvent.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\time\\juce_PerformanceCounter.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\time\\juce_RelativeTime.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\time\\juce_Time.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\unit_tests\\juce_UnitTest.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\xml\\juce_XmlDocument.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\xml\\juce_XmlElement.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\zip\\juce_GZIPCompressorOutputStream.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\zip\\juce_GZIPDecompressorInputStream.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\zip\\juce_ZipFile.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\juce_core.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\juce_core.mm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_data_structures\\app_properties\\juce_ApplicationProperties.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_data_structures\\app_properties\\juce_PropertiesFile.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_data_structures\\undomanager\\juce_UndoManager.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_data_structures\\values\\juce_CachedValue.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_data_structures\\values\\juce_Value.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_data_structures\\values\\juce_ValueTree.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_data_structures\\values\\juce_ValueTreeSynchroniser.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_data_structures\\values\\juce_ValueWithDefault.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_data_structures\\juce_data_structures.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_data_structures\\juce_data_structures.mm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\broadcasters\\juce_ActionBroadcaster.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\broadcasters\\juce_AsyncUpdater.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\broadcasters\\juce_ChangeBroadcaster.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\interprocess\\juce_ConnectedChildProcess.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\interprocess\\juce_InterprocessConnection.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\interprocess\\juce_InterprocessConnectionServer.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\interprocess\\juce_NetworkServiceDiscovery.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\messages\\juce_ApplicationBase.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\messages\\juce_DeletedAtShutdown.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\messages\\juce_MessageListener.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\messages\\juce_MessageManager.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\native\\juce_android_Messaging.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\native\\juce_ios_MessageManager.mm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\native\\juce_linux_Messaging.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\native\\juce_mac_MessageManager.mm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\native\\juce_win32_Messaging.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\native\\juce_win32_WinRTWrapper.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\timers\\juce_MultiTimer.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\timers\\juce_Timer.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\juce_events.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\juce_events.mm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\colour\\juce_Colour.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\colour\\juce_ColourGradient.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\colour\\juce_Colours.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\colour\\juce_FillType.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\contexts\\juce_GraphicsContext.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\contexts\\juce_LowLevelGraphicsPostScriptRenderer.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\contexts\\juce_LowLevelGraphicsSoftwareRenderer.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\effects\\juce_DropShadowEffect.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\effects\\juce_GlowEffect.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\fonts\\juce_AttributedString.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\fonts\\juce_CustomTypeface.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\fonts\\juce_Font.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\fonts\\juce_GlyphArrangement.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\fonts\\juce_TextLayout.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\fonts\\juce_Typeface.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\geometry\\juce_AffineTransform.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\geometry\\juce_EdgeTable.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\geometry\\juce_Path.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\geometry\\juce_PathIterator.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\geometry\\juce_PathStrokeType.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\juce_GIFLoader.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\juce_JPEGLoader.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\juce_PNGLoader.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\images\\juce_Image.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\images\\juce_ImageCache.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\images\\juce_ImageConvolutionKernel.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\images\\juce_ImageFileFormat.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\native\\juce_android_Fonts.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\native\\juce_android_GraphicsContext.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\native\\juce_android_IconHelpers.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\native\\juce_freetype_Fonts.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\native\\juce_linux_Fonts.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\native\\juce_linux_IconHelpers.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\native\\juce_mac_CoreGraphicsContext.mm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\native\\juce_mac_Fonts.mm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\native\\juce_mac_IconHelpers.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\native\\juce_win32_Direct2DGraphicsContext.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\native\\juce_win32_DirectWriteTypeface.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\native\\juce_win32_DirectWriteTypeLayout.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\native\\juce_win32_Fonts.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\native\\juce_win32_IconHelpers.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\placement\\juce_RectanglePlacement.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\juce_graphics.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\juce_graphics.mm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\application\\juce_Application.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\buttons\\juce_ArrowButton.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\buttons\\juce_Button.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\buttons\\juce_DrawableButton.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\buttons\\juce_HyperlinkButton.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\buttons\\juce_ImageButton.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\buttons\\juce_ShapeButton.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\buttons\\juce_TextButton.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\buttons\\juce_ToggleButton.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\buttons\\juce_ToolbarButton.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\commands\\juce_ApplicationCommandInfo.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\commands\\juce_ApplicationCommandManager.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\commands\\juce_ApplicationCommandTarget.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\commands\\juce_KeyPressMappingSet.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\components\\juce_Component.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\components\\juce_ComponentListener.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\components\\juce_ModalComponentManager.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\desktop\\juce_Desktop.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\desktop\\juce_Displays.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\drawables\\juce_Drawable.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\drawables\\juce_DrawableComposite.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\drawables\\juce_DrawableImage.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\drawables\\juce_DrawablePath.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\drawables\\juce_DrawableRectangle.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\drawables\\juce_DrawableShape.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\drawables\\juce_DrawableText.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\drawables\\juce_SVGParser.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\filebrowser\\juce_ContentSharer.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\filebrowser\\juce_DirectoryContentsDisplayComponent.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\filebrowser\\juce_DirectoryContentsList.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\filebrowser\\juce_FileBrowserComponent.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\filebrowser\\juce_FileChooser.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\filebrowser\\juce_FileChooserDialogBox.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\filebrowser\\juce_FileListComponent.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\filebrowser\\juce_FilenameComponent.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\filebrowser\\juce_FileSearchPathListComponent.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\filebrowser\\juce_FileTreeComponent.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\filebrowser\\juce_ImagePreviewComponent.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\keyboard\\juce_CaretComponent.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\keyboard\\juce_KeyboardFocusTraverser.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\keyboard\\juce_KeyListener.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\keyboard\\juce_KeyPress.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\keyboard\\juce_ModifierKeys.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_ComponentAnimator.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_ComponentBoundsConstrainer.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_ComponentBuilder.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_ComponentMovementWatcher.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_ConcertinaPanel.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_FlexBox.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_Grid.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_GridItem.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_GroupComponent.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_MultiDocumentPanel.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_ResizableBorderComponent.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_ResizableCornerComponent.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_ResizableEdgeComponent.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_ScrollBar.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_SidePanel.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_StretchableLayoutManager.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_StretchableLayoutResizerBar.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_StretchableObjectResizer.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_TabbedButtonBar.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_TabbedComponent.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_Viewport.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\lookandfeel\\juce_LookAndFeel.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\lookandfeel\\juce_LookAndFeel_V1.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\lookandfeel\\juce_LookAndFeel_V2.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\lookandfeel\\juce_LookAndFeel_V3.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\lookandfeel\\juce_LookAndFeel_V4.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\menus\\juce_BurgerMenuComponent.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\menus\\juce_MenuBarComponent.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\menus\\juce_MenuBarModel.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\menus\\juce_PopupMenu.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\misc\\juce_BubbleComponent.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\misc\\juce_DropShadower.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\misc\\juce_JUCESplashScreen.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\mouse\\juce_ComponentDragger.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\mouse\\juce_DragAndDropContainer.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\mouse\\juce_MouseCursor.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\mouse\\juce_MouseEvent.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\mouse\\juce_MouseInactivityDetector.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\mouse\\juce_MouseInputSource.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\mouse\\juce_MouseListener.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\native\\x11\\juce_linux_X11_DragAndDrop.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\native\\x11\\juce_linux_X11_Symbols.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\native\\x11\\juce_linux_XWindowSystem.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\native\\juce_android_ContentSharer.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\native\\juce_android_FileChooser.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\native\\juce_android_Windowing.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\native\\juce_common_MimeTypes.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\native\\juce_ios_ContentSharer.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\native\\juce_ios_FileChooser.mm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\native\\juce_ios_UIViewComponentPeer.mm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\native\\juce_ios_Windowing.mm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\native\\juce_linux_FileChooser.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\native\\juce_linux_Windowing.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\native\\juce_mac_FileChooser.mm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\native\\juce_mac_MainMenu.mm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\native\\juce_mac_MouseCursor.mm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\native\\juce_mac_NSViewComponentPeer.mm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\native\\juce_mac_Windowing.mm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\native\\juce_win32_DragAndDrop.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\native\\juce_win32_FileChooser.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\native\\juce_win32_Windowing.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\positioning\\juce_MarkerList.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\positioning\\juce_RelativeCoordinate.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\positioning\\juce_RelativeCoordinatePositioner.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\positioning\\juce_RelativeParallelogram.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\positioning\\juce_RelativePoint.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\positioning\\juce_RelativePointPath.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\positioning\\juce_RelativeRectangle.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\properties\\juce_BooleanPropertyComponent.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\properties\\juce_ButtonPropertyComponent.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\properties\\juce_ChoicePropertyComponent.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\properties\\juce_MultiChoicePropertyComponent.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\properties\\juce_PropertyComponent.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\properties\\juce_PropertyPanel.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\properties\\juce_SliderPropertyComponent.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\properties\\juce_TextPropertyComponent.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\widgets\\juce_ComboBox.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\widgets\\juce_ImageComponent.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\widgets\\juce_Label.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\widgets\\juce_ListBox.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\widgets\\juce_ProgressBar.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\widgets\\juce_Slider.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\widgets\\juce_TableHeaderComponent.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\widgets\\juce_TableListBox.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\widgets\\juce_TextEditor.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\widgets\\juce_Toolbar.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\widgets\\juce_ToolbarItemComponent.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\widgets\\juce_ToolbarItemPalette.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\widgets\\juce_TreeView.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\windows\\juce_AlertWindow.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\windows\\juce_CallOutBox.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\windows\\juce_ComponentPeer.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\windows\\juce_DialogWindow.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\windows\\juce_DocumentWindow.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\windows\\juce_ResizableWindow.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\windows\\juce_ThreadWithProgressWindow.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\windows\\juce_TooltipWindow.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\windows\\juce_TopLevelWindow.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\juce_gui_basics.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\juce_gui_basics.mm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JuceLibraryCode\\include_juce_core.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JuceLibraryCode\\include_juce_data_structures.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JuceLibraryCode\\include_juce_events.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JuceLibraryCode\\include_juce_graphics.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JuceLibraryCode\\include_juce_gui_basics.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JuceLibraryCode\\include_jucey_bonjour.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\native\\java\\README.txt",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\changes to libjpeg for JUCE.txt",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\pnglib\\libpng_readme.txt",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\Source\\MainComponent.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\jucey_bonjour\\jucey_bonjour\\bonjour\\jucey_BonjourService.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\jucey_bonjour\\jucey_bonjour\\jucey_bonjour.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\containers\\juce_AbstractFifo.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\containers\\juce_Array.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\containers\\juce_ArrayAllocationBase.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\containers\\juce_ArrayBase.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\containers\\juce_DynamicObject.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\containers\\juce_ElementComparator.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\containers\\juce_HashMap.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\containers\\juce_LinkedListPointer.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\containers\\juce_ListenerList.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\containers\\juce_NamedValueSet.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\containers\\juce_OwnedArray.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\containers\\juce_PropertySet.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\containers\\juce_ReferenceCountedArray.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\containers\\juce_ScopedValueSetter.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\containers\\juce_SortedSet.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\containers\\juce_SparseSet.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\containers\\juce_Variant.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\files\\juce_DirectoryIterator.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\files\\juce_File.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\files\\juce_FileFilter.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\files\\juce_FileInputStream.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\files\\juce_FileOutputStream.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\files\\juce_FileSearchPath.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\files\\juce_MemoryMappedFile.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\files\\juce_RangedDirectoryIterator.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\files\\juce_TemporaryFile.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\files\\juce_WildcardFileFilter.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\javascript\\juce_Javascript.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\javascript\\juce_JSON.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\logging\\juce_FileLogger.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\logging\\juce_Logger.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\maths\\juce_BigInteger.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\maths\\juce_Expression.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\maths\\juce_MathsFunctions.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\maths\\juce_NormalisableRange.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\maths\\juce_Random.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\maths\\juce_Range.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\maths\\juce_StatisticsAccumulator.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\memory\\juce_AllocationHooks.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\memory\\juce_Atomic.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\memory\\juce_ByteOrder.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\memory\\juce_ContainerDeletePolicy.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\memory\\juce_HeapBlock.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\memory\\juce_HeavyweightLeakedObjectDetector.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\memory\\juce_LeakedObjectDetector.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\memory\\juce_Memory.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\memory\\juce_MemoryBlock.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\memory\\juce_OptionalScopedPointer.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\memory\\juce_ReferenceCountedObject.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\memory\\juce_ScopedPointer.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\memory\\juce_SharedResourcePointer.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\memory\\juce_Singleton.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\memory\\juce_WeakReference.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\misc\\juce_ConsoleApplication.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\misc\\juce_Result.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\misc\\juce_RuntimePermissions.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\misc\\juce_Uuid.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\misc\\juce_WindowsRegistry.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\native\\juce_android_JNIHelpers.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\native\\juce_BasicNativeHeaders.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\native\\juce_mac_ClangBugWorkaround.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\native\\juce_osx_ObjCHelpers.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\native\\juce_posix_IPAddress.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\native\\juce_posix_SharedCode.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\native\\juce_win32_ComSmartPtr.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\network\\juce_IPAddress.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\network\\juce_MACAddress.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\network\\juce_NamedPipe.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\network\\juce_Socket.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\network\\juce_URL.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\network\\juce_WebInputStream.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\streams\\juce_BufferedInputStream.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\streams\\juce_FileInputSource.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\streams\\juce_InputSource.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\streams\\juce_InputStream.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\streams\\juce_MemoryInputStream.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\streams\\juce_MemoryOutputStream.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\streams\\juce_OutputStream.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\streams\\juce_SubregionStream.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\streams\\juce_URLInputSource.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\system\\juce_CompilerSupport.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\system\\juce_CompilerWarnings.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\system\\juce_PlatformDefs.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\system\\juce_StandardHeader.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\system\\juce_SystemStats.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\system\\juce_TargetPlatform.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\text\\juce_Base64.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\text\\juce_CharacterFunctions.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\text\\juce_CharPointer_ASCII.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\text\\juce_CharPointer_UTF8.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\text\\juce_CharPointer_UTF16.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\text\\juce_CharPointer_UTF32.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\text\\juce_Identifier.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\text\\juce_LocalisedStrings.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\text\\juce_NewLine.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\text\\juce_String.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\text\\juce_StringArray.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\text\\juce_StringPairArray.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\text\\juce_StringPool.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\text\\juce_StringRef.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\text\\juce_TextDiff.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\threads\\juce_ChildProcess.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\threads\\juce_CriticalSection.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\threads\\juce_DynamicLibrary.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\threads\\juce_HighResolutionTimer.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\threads\\juce_InterProcessLock.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\threads\\juce_Process.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\threads\\juce_ReadWriteLock.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\threads\\juce_ScopedLock.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\threads\\juce_ScopedReadLock.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\threads\\juce_ScopedWriteLock.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\threads\\juce_SpinLock.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\threads\\juce_Thread.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\threads\\juce_ThreadLocalValue.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\threads\\juce_ThreadPool.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\threads\\juce_TimeSliceThread.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\threads\\juce_WaitableEvent.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\time\\juce_PerformanceCounter.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\time\\juce_RelativeTime.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\time\\juce_Time.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\unit_tests\\juce_UnitTest.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\unit_tests\\juce_UnitTestCategories.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\xml\\juce_XmlDocument.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\xml\\juce_XmlElement.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\zip\\zlib\\crc32.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\zip\\zlib\\deflate.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\zip\\zlib\\inffast.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\zip\\zlib\\inffixed.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\zip\\zlib\\inflate.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\zip\\zlib\\inftrees.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\zip\\zlib\\trees.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\zip\\zlib\\zconf.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\zip\\zlib\\zconf.in.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\zip\\zlib\\zlib.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\zip\\zlib\\zutil.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\zip\\juce_GZIPCompressorOutputStream.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\zip\\juce_GZIPDecompressorInputStream.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\zip\\juce_ZipFile.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_core\\juce_core.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_data_structures\\app_properties\\juce_ApplicationProperties.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_data_structures\\app_properties\\juce_PropertiesFile.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_data_structures\\undomanager\\juce_UndoableAction.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_data_structures\\undomanager\\juce_UndoManager.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_data_structures\\values\\juce_CachedValue.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_data_structures\\values\\juce_Value.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_data_structures\\values\\juce_ValueTree.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_data_structures\\values\\juce_ValueTreeSynchroniser.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_data_structures\\values\\juce_ValueWithDefault.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_data_structures\\juce_data_structures.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\broadcasters\\juce_ActionBroadcaster.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\broadcasters\\juce_ActionListener.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\broadcasters\\juce_AsyncUpdater.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\broadcasters\\juce_ChangeBroadcaster.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\broadcasters\\juce_ChangeListener.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\interprocess\\juce_ConnectedChildProcess.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\interprocess\\juce_InterprocessConnection.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\interprocess\\juce_InterprocessConnectionServer.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\interprocess\\juce_NetworkServiceDiscovery.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\messages\\juce_ApplicationBase.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\messages\\juce_CallbackMessage.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\messages\\juce_DeletedAtShutdown.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\messages\\juce_Initialisation.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\messages\\juce_Message.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\messages\\juce_MessageListener.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\messages\\juce_MessageManager.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\messages\\juce_MountedVolumeListChangeDetector.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\messages\\juce_NotificationType.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\native\\juce_linux_EventLoop.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\native\\juce_osx_MessageQueue.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\native\\juce_win32_HiddenMessageWindow.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\native\\juce_win32_WinRTWrapper.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\timers\\juce_MultiTimer.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\timers\\juce_Timer.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_events\\juce_events.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\colour\\juce_Colour.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\colour\\juce_ColourGradient.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\colour\\juce_Colours.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\colour\\juce_FillType.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\colour\\juce_PixelFormats.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\contexts\\juce_GraphicsContext.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\contexts\\juce_LowLevelGraphicsContext.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\contexts\\juce_LowLevelGraphicsPostScriptRenderer.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\contexts\\juce_LowLevelGraphicsSoftwareRenderer.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\effects\\juce_DropShadowEffect.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\effects\\juce_GlowEffect.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\effects\\juce_ImageEffectFilter.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\fonts\\juce_AttributedString.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\fonts\\juce_CustomTypeface.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\fonts\\juce_Font.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\fonts\\juce_GlyphArrangement.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\fonts\\juce_TextLayout.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\fonts\\juce_Typeface.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\geometry\\juce_AffineTransform.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\geometry\\juce_BorderSize.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\geometry\\juce_EdgeTable.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\geometry\\juce_Line.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\geometry\\juce_Parallelogram.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\geometry\\juce_Path.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\geometry\\juce_PathIterator.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\geometry\\juce_PathStrokeType.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\geometry\\juce_Point.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\geometry\\juce_Rectangle.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\geometry\\juce_RectangleList.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\cderror.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jchuff.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jconfig.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jdct.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jdhuff.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jerror.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jinclude.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jmemsys.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jmorecfg.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jpegint.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jpeglib.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\jversion.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\jpglib\\transupp.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\pnglib\\png.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\pnglib\\pngconf.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\pnglib\\pngdebug.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\pnglib\\pnginfo.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\pnglib\\pngpriv.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\image_formats\\pnglib\\pngstruct.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\images\\juce_Image.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\images\\juce_ImageCache.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\images\\juce_ImageConvolutionKernel.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\images\\juce_ImageFileFormat.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\native\\juce_mac_CoreGraphicsContext.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\native\\juce_mac_CoreGraphicsHelpers.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\native\\juce_RenderingHelpers.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\native\\juce_win32_Direct2DGraphicsContext.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\placement\\juce_Justification.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\placement\\juce_RectanglePlacement.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_graphics\\juce_graphics.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\application\\juce_Application.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\buttons\\juce_ArrowButton.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\buttons\\juce_Button.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\buttons\\juce_DrawableButton.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\buttons\\juce_HyperlinkButton.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\buttons\\juce_ImageButton.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\buttons\\juce_ShapeButton.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\buttons\\juce_TextButton.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\buttons\\juce_ToggleButton.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\buttons\\juce_ToolbarButton.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\commands\\juce_ApplicationCommandID.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\commands\\juce_ApplicationCommandInfo.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\commands\\juce_ApplicationCommandManager.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\commands\\juce_ApplicationCommandTarget.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\commands\\juce_KeyPressMappingSet.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\components\\juce_CachedComponentImage.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\components\\juce_Component.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\components\\juce_ComponentListener.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\components\\juce_ModalComponentManager.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\desktop\\juce_Desktop.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\desktop\\juce_Displays.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\drawables\\juce_Drawable.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\drawables\\juce_DrawableComposite.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\drawables\\juce_DrawableImage.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\drawables\\juce_DrawablePath.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\drawables\\juce_DrawableRectangle.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\drawables\\juce_DrawableShape.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\drawables\\juce_DrawableText.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\filebrowser\\juce_ContentSharer.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\filebrowser\\juce_DirectoryContentsDisplayComponent.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\filebrowser\\juce_DirectoryContentsList.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\filebrowser\\juce_FileBrowserComponent.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\filebrowser\\juce_FileBrowserListener.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\filebrowser\\juce_FileChooser.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\filebrowser\\juce_FileChooserDialogBox.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\filebrowser\\juce_FileListComponent.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\filebrowser\\juce_FilenameComponent.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\filebrowser\\juce_FilePreviewComponent.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\filebrowser\\juce_FileSearchPathListComponent.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\filebrowser\\juce_FileTreeComponent.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\filebrowser\\juce_ImagePreviewComponent.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\keyboard\\juce_CaretComponent.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\keyboard\\juce_KeyboardFocusTraverser.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\keyboard\\juce_KeyListener.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\keyboard\\juce_KeyPress.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\keyboard\\juce_ModifierKeys.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\keyboard\\juce_SystemClipboard.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\keyboard\\juce_TextEditorKeyMapper.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\keyboard\\juce_TextInputTarget.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_AnimatedPosition.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_AnimatedPositionBehaviours.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_ComponentAnimator.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_ComponentBoundsConstrainer.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_ComponentBuilder.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_ComponentMovementWatcher.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_ConcertinaPanel.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_FlexBox.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_FlexItem.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_Grid.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_GridItem.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_GroupComponent.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_MultiDocumentPanel.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_ResizableBorderComponent.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_ResizableCornerComponent.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_ResizableEdgeComponent.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_ScrollBar.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_SidePanel.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_StretchableLayoutManager.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_StretchableLayoutResizerBar.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_StretchableObjectResizer.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_TabbedButtonBar.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_TabbedComponent.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\layout\\juce_Viewport.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\lookandfeel\\juce_LookAndFeel.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\lookandfeel\\juce_LookAndFeel_V1.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\lookandfeel\\juce_LookAndFeel_V2.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\lookandfeel\\juce_LookAndFeel_V3.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\lookandfeel\\juce_LookAndFeel_V4.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\menus\\juce_BurgerMenuComponent.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\menus\\juce_MenuBarComponent.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\menus\\juce_MenuBarModel.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\menus\\juce_PopupMenu.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\misc\\juce_BubbleComponent.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\misc\\juce_DropShadower.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\misc\\juce_JUCESplashScreen.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\mouse\\juce_ComponentDragger.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\mouse\\juce_DragAndDropContainer.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\mouse\\juce_DragAndDropTarget.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\mouse\\juce_FileDragAndDropTarget.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\mouse\\juce_LassoComponent.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\mouse\\juce_MouseCursor.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\mouse\\juce_MouseEvent.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\mouse\\juce_MouseInactivityDetector.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\mouse\\juce_MouseInputSource.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\mouse\\juce_MouseListener.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\mouse\\juce_SelectedItemSet.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\mouse\\juce_TextDragAndDropTarget.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\mouse\\juce_TooltipClient.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\native\\x11\\juce_linux_X11_Symbols.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\native\\x11\\juce_linux_XWindowSystem.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\native\\juce_MultiTouchMapper.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\native\\juce_win32_ScopedThreadDPIAwarenessSetter.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\positioning\\juce_MarkerList.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\positioning\\juce_RelativeCoordinate.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\positioning\\juce_RelativeCoordinatePositioner.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\positioning\\juce_RelativeParallelogram.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\positioning\\juce_RelativePoint.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\positioning\\juce_RelativePointPath.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\positioning\\juce_RelativeRectangle.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\properties\\juce_BooleanPropertyComponent.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\properties\\juce_ButtonPropertyComponent.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\properties\\juce_ChoicePropertyComponent.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\properties\\juce_MultiChoicePropertyComponent.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\properties\\juce_PropertyComponent.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\properties\\juce_PropertyPanel.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\properties\\juce_SliderPropertyComponent.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\properties\\juce_TextPropertyComponent.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\widgets\\juce_ComboBox.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\widgets\\juce_ImageComponent.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\widgets\\juce_Label.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\widgets\\juce_ListBox.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\widgets\\juce_ProgressBar.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\widgets\\juce_Slider.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\widgets\\juce_TableHeaderComponent.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\widgets\\juce_TableListBox.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\widgets\\juce_TextEditor.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\widgets\\juce_Toolbar.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\widgets\\juce_ToolbarItemComponent.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\widgets\\juce_ToolbarItemFactory.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\widgets\\juce_ToolbarItemPalette.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\widgets\\juce_TreeView.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\windows\\juce_AlertWindow.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\windows\\juce_CallOutBox.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\windows\\juce_ComponentPeer.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\windows\\juce_DialogWindow.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\windows\\juce_DocumentWindow.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\windows\\juce_NativeMessageBox.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\windows\\juce_ResizableWindow.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\windows\\juce_ThreadWithProgressWindow.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\windows\\juce_TooltipWindow.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\windows\\juce_TopLevelWindow.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JUCE\\modules\\juce_gui_basics\\juce_gui_basics.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\shane\\Documents\\zeroconftest\\JuceLibraryCode\\JuceHeader.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Users\\shane\\Documents\\zeroconftest\\Builds\\Android\\app\\build\\intermediates\\cmake\\debug_Debug\\obj\\x86_64\\libjuce_jni.so",
+      "runtimeFiles": []
+    },
+    "cpufeatures-Debug-x86_64": {
+      "buildCommand": "C:\\Users\\shane\\android-sdks\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\shane\\Documents\\zeroconftest\\Builds\\Android\\app\\.cxx\\cmake\\debug_Debug\\x86_64\" cpufeatures",
+      "buildType": "debug",
+      "toolchain": "2309962848",
+      "abi": "x86_64",
+      "artifactName": "cpufeatures",
+      "files": [
+        {
+          "src": "C:\\Users\\shane\\android-sdks\\ndk\\22.1.7171670\\sources\\android\\cpufeatures\\cpu-features.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Users\\shane\\Documents\\zeroconftest\\Builds\\Android\\app\\.cxx\\cmake\\debug_Debug\\x86_64\\libcpufeatures.a",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "2309962848": {
+      "cCompilerExecutable": "C:\\Users\\shane\\android-sdks\\ndk\\22.1.7171670\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "C:\\Users\\shane\\android-sdks\\ndk\\22.1.7171670\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "mm",
+    "cpp"
+  ]
+}
