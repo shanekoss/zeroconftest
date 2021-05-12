@@ -4,3 +4,6 @@
 [submodule "jucey_bonjour"]
 	path = jucey_bonjour
 	url = https://github.com/Anthony-Nicholls/jucey_bonjour.git
+[submodule "mdnsresponder"]
+	path = mdnsresponder
+	url = https://github.com/rxwen/mdnsresponder.git
